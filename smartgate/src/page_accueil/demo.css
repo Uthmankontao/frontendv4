@@ -1,0 +1,84 @@
+
+:root{
+    --border_size : 4px;
+}
+body{
+    color : white;
+    overflow: hidden;
+    position: relative;
+    background-color: #090909;
+}
+
+#containerBou {
+    width : 100%;
+    height : 100%;
+    overflow: hidden;
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    border : solid white;
+    border-radius: 10px;
+    background-color: #090909;
+    color : white;
+}
+
+#containerBou h1{
+    text-align: center;
+    font-size: 24px;
+    color: black;
+}
+
+.main_content{
+    width: 90%;
+    height : 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 30% auto;
+    gap : 2vmin;
+    background : #121212;
+}
+
+.side{
+    display: flex;
+    flex-direction: column;
+    border : var(--border_size) solid grey ;
+    border-radius: 15px;
+}
+.side h3{
+    background: #303030be;
+    text-align: center;
+    padding : 4px 0 ;
+    width: 90%;
+    margin : 4px auto ;
+    border-radius: 1px;
+    transition: 200ms;
+}
+
+.side h3:hover{
+    scale : 1.2;
+}
+
+.center{
+    position : relative ;
+    width: 100%;
+    height : 100%;
+    border : var(--border_size) solid grey ;
+    border-radius: 15px;
+}
+
+.center button{
+    position : absolute ;
+    bottom : 10% ;
+    color: white;
+    outline: none;
+    border : solid rgba(54, 54, 54, 0.696) ;
+    padding: 2px 15px;
+    background-color: rgb(47, 47, 47);
+    border-radius: 8px;
+}
+.center button h2{ font-size: 2vmin;}
+
+.center img{
+    width : 100%;
+    aspect-ratio: 16 / 9;
+}

@@ -1,0 +1,555 @@
+/* Reset des styles par défaut */
+
+* {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: wheat;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.5;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* En-tête */
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.user-profile {
+    margin-left: auto;
+}
+
+.signup {
+    background-color: rgb(55, 55, 220);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+/* Section principale */
+.hero {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #888;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: rgb(55, 55, 220);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgb(55, 55, 220);
+}
+
+/* Sections supplémentaires */
+.categories {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.categories h3 {
+    margin-bottom: 20px;
+}
+
+.category-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.category-list li {
+    margin-right: 10px;
+}
+
+.category-list li a {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.category-list li a:hover {
+    background-color: rgb(55, 55, 220);
+    color: #fff;
+}
+
+.popular-courses {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.popular-courses h3 {
+    margin-bottom: 20px;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+.course-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.course-card img {
+    width: 100
+/* Reset des styles par défaut */
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* En-tête */
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.user-profile {
+    margin-left: auto;
+}
+
+.signup {
+    background-color: rgb(55, 55, 220);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+/* Section principale */
+.hero {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #888;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: rgb(55, 55, 220);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: ff5f6d;
+}
+
+/* Sections supplémentaires */
+.categories {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.categories h3 {
+    margin-bottom: 20px;
+}
+
+.category-list {
+    color: blue;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.category-list li {
+    margin-right: 10px;
+}
+
+.category-list li a {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.category-list li a:hover {
+    background-color: rgb(55, 55, 220);
+    color: #fff;
+}
+
+.popular-courses {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.popular-courses h3 {
+    margin-bottom: 20px;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+.course-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+}
+
+.course-card img {
+    width: 100
+
+}
+
+.search form {
+        display: flex;
+        align-items: center;
+    }
+
+    .search input[type="text"] {
+        padding: 8px;
+        width: 80%;
+        max-width: 400px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .search button {
+        padding: 8px 16px;
+        background-color: rgb(55, 55, 220);
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        margin-left: 8px;
+        cursor: pointer;
+    }
+
+.course-card button{
+    
+    margin-top: 5%;
+    outline: none;
+    padding: 10px 30px;
+    background-color: rgb(55, 55, 220);
+    color: white;
+    border-radius: 14px;
+}
+
+/* About section */
+.about {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+
+.about h3 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.about p {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+}
+
+/* Mission section */
+.mission {
+    padding: 50px 0;
+}
+
+.mission h3 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.mission p {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+}
+
+/* Goal section */
+.goal {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+
+.goal h3 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.goal p {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+}
+
+/* Benefits section */
+.benefits {
+    padding: 50px 0;
+}
+
+.benefits h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.benefits ul {
+    list-style: none;
+    padding: 0;
+}
+
+.benefits li {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Statistics section */
+.statistics {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+
+.statistics h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.stats-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat-card {
+    text-align: center;
+    margin: 20px;
+}
+
+.stat-card h4 {
+    font-size: 36px;
+    color: rgb(55, 55, 220);
+}
+
+/* Partners section */
+.partners {
+    padding: 50px 0;
+}
+
+.partners h3 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.partners-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+.partners img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+
+
+footer {
+    background-color: black;
+    color: wheat;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+  }
+  
+  .footer-section {
+    margin: 40px;
+    background-color: black;
+  }
+  
+  .footer-section h3 {
+    font-size: 24px;
+    text-align: center;
+    color: wheat;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 10px 0;
+    text-align: left;
+  }
+  
+  .footer-section ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-section p {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .footer-section h3 {
+    background-color: black;
+    text-align: left;
+  }
+
+  .footer-section ul {
+    background-color: black;
+  }
+
+  .footer-section li {
+    background-color: black;
+  }
+
+  .footer-section a {
+    background-color: black;
+  }
+
+  .btne{
+    background-color: rgb(55, 55, 220);
+    color: white
+  }
+
